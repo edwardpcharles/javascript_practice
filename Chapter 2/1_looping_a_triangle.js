@@ -1,4 +1,5 @@
 /*
+Looping a triangle  
     Write a loop that makes seven calls to console.log to output the following triangle:
 
     #
@@ -14,3 +15,11 @@
         2 - console.log(abc.length);
         3 - // → 3
 */
+
+let tri_counter = 0;
+let string = ''
+while (tri_counter <=6){
+    string = string + '#'
+    console.log(string);
+    tri_counter++;
+}
