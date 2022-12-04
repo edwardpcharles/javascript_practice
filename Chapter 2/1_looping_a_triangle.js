@@ -1,5 +1,6 @@
 /*
-Looping a triangle  
+**************************************************************************************************************************************************
+Problem: Looping a triangle  
     Write a loop that makes seven calls to console.log to output the following triangle:
 
     #
@@ -14,6 +15,8 @@ Looping a triangle
         1 - let abc = "abc";
         2 - console.log(abc.length);
         3 - // → 3
+
+**************************************************************************************************************************************************
 */
 
 let tri_counter = 0;
