@@ -30,12 +30,10 @@ function deepEqual(item1, item2){
             return false;
         }
     } else if (typeof item1 === 'object' && typeof item2 === 'object'){
-        //console.log(Object.keys(item1).length);
         while(Object.keys(item1).length > 0) {
             let compare_key1 = Object.keys(item1)[0];
             let compare_key2 = Object.keys(item2)[0];
             if(compare_key1 === compare_key2){
-                //console.log(compare_key1 + ' ' + item1[compare_key1] + '-' + compare_key2 + ' ' + item2[compare_key2])
                 return deepEqual(item1[compare_key1],item2[compare_key2])
             } else {
                 return false;
