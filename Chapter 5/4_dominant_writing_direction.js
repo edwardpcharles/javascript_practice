@@ -25,7 +25,7 @@ function dominantDirection(text) {
     for(let i = 0; i <text.length; i++){
         SCRIPTS.forEach(n => {
             n['ranges'].forEach(x =>{
-                if(text.charCodeAt(i) >= x[0] && text.charCodeAt(i) <= x[1]){
+                if(text.charCodeAt(i) > x[0] && text.charCodeAt(i) <= x[1]){
                     direction.push(n['direction']);
                     
                 }
